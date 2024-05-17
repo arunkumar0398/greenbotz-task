@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.inputLabel {
+  display: block;
+  width: 100%;
+}
+
+.profile, .about-us {
+  display: inline-block;
+  width: 100%;
+}
+
+
+.navbar {
+  
+}
+
+.navbar .navbar-collapse {
+
+}
+
+.navbar .navbar-show {
+
+}
