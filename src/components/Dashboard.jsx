@@ -2,12 +2,8 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export const Dashboard = () => {
-    const [profile, setProfile] = useState(() => {
-        return window.location.pathname == '/dashboard#profile';
-    });
-    const [about, setAbout] = useState(() => {
-        return window.location.pathname == '/dashboard#about';
-    });
+    const [profile, setProfile] = useState(window.location.pathname +window.location.hash == '/dashboard#profile');
+    const [about, setAbout] = useState(window.location.pathname +window.location.hash == '/dashboard#about');
 
     const showProfile = () => {
         setProfile(true);
