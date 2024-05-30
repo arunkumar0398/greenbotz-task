@@ -2,7 +2,19 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+}
+
+.heading {
   text-align: center;
+}
+
+form {
+  margin: 0 38vw;
+  width: 600px;
+}
+
+.inputSection {
+  margin-bottom: 10px;
 }
 
 .inputLabel {
@@ -10,20 +22,27 @@
   width: 100%;
 }
 
+input {
+  border-radius: 20px;
+}
+
+.block-link {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.signUp-link {
+  display: inline-block;
+  margin-top: 18px;
+  text-align: center;
+  border: 1px solid;
+  padding: 4px 20px;
+  color: #000;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
 .profile, .about-us {
   display: inline-block;
   width: 100%;
-}
-
-
-.navbar {
-  
-}
-
-.navbar .navbar-collapse {
-
-}
-
-.navbar .navbar-show {
-
 }
